@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #fff;
+    z-index: 99;
+ }
+  
+#loadingimage{
+    position: absolute;
+    bottom: 500px;
+    right: 0;
+    top: 0;    
+    z-index: 100;
+    width: 200px;
+}
+
+#loadingimg{
+    position: absolute;
+    top: 700x;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 200px;
+}
+
+#logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    max-width: 100%;
+    height: auto;
+}
