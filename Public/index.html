@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>TrashBack</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="../src/Assets/logotb.png"
+            alt="Bootstrap"
+            width="50%"
+            height="auto"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src/Components/Transaksi/transaksi.html"
+                >Transaksi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Components/Chat/chat.html"
+                >Chat</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src/Components/About/tentangKami.html"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Components/Auth/Login.html"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="content">
+        <div class="jumbotron"></div>
+      </div>
+    </main>
+
+    <section class="content1">
+      <div class="menu-kategori">
+        <div class="icons">
+          <a href="../src/Components/PickUp/PickUp.html"
+            ><img src="../src/Assets/icon_pickup.png" class="img-kategori"
+          /></a>
+          <p class="icon">Pick Up</p>
+        </div>
+      </div>
+
+      <div class="menu-kategori">
+        <div class="icons">
+          <a href="../src/Components/DropOff/Dropoff.html"
+            ><img src="../src/Assets/icon_dropoff.png" class="img-kategori"
+          /></a>
+          <p class="icon">Drop Off</p>
+        </div>
+      </div>
+
+      <div class="menu-kategori">
+        <div class="icons">
+          <a href="../src/Components/Panduan/panduanKelolaAkun.html">
+            <img src="../src/Assets/logoPP.png" class="img-kategori" />
+          </a>
+          <p class="icon">Panduan Pengguna</p>
+        </div>
+      </div>
+
+      <div class="menu-kategori">
+        <div class="icons">
+          <a href="../src/Components/About/tentangKami.html"
+            ><img src="../src/Assets/ixon_ttgkami.png" class="img-kategori"
+          /></a>
+          <p class="icon">Tentang Kami</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content2">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../src/Assets/iklan-banner-1.jpg"
+              class="d-block w-100"
+              alt="iklan-banner-1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../src/Assets/iklan-banner-2.jpg"
+              class="d-block w-100"
+              alt="iklan-banner-2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../src/Assets/iklan-banner-3.jpg"
+              class="d-block w-100"
+              alt="iklan-banner-3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-box">
+        <div class="logo-footer">
+          <img src="../src/Assets/logo-footer.png" alt="" />
+        </div>
+        <div class="about-box">
+          <div class="left-box">
+            <div class="about-us">
+              <p class="about-desc">
+                TrashBack merupakan aplikasi sederhana yang digunakan untuk
+                proses menukar sampah menjadi bahan pokok atau sebagainya.
+              </p>
+            </div>
+          </div>
+
+          <div class="social-media-box">
+            <h3>Ikuti Kami</h3>
+            <div class="social-media">
+              <a href=""><i class="fab fa-facebook"></i> Facebook</a><br />
+              <a href=""><i class="fab fa-instagram"></i> Instagram</a><br />
+              <a href=""><i class="fab fa-youtube"></i> Youtube </a><br />
+              <a href=""><i class="fab fa-whatsapp"></i> Whatsapp</a><br />
+              <a href=""><i class="fab fa-twitter"></i> Twitter</a><br />
+            </div>
+          </div>
+
+          <div class="center-box">
+            <h3>Link Terkait</h3>
+            <div class="list-link">
+              <a href="./index.html"><i class="fas fa-link"></i> Beranda</a
+              ><br />
+              <a href="../src/Components/Transaksi/transaksi.html"
+                ><i class="fas fa-link"></i> Transaksi</a
+              ><br />
+              <a href="../src/Components/Chat/chat.html"
+                ><i class="fas fa-link"></i> Chat</a
+              ><br />
+              <a href="../src/Components/About/tentangKami.html"
+                ><i class="fas fa-link"></i> Tentang Kami</a
+              ><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var myCarousel = new bootstrap.Carousel(
+          document.getElementById("carouselExampleAutoplaying"),
+          {
+            interval: 1500,
+            wrap: true,
+            keyboard: true,
+          }
+        );
+
+        var menuIcon = document.getElementById("menu-icon");
+        var navbarMenu = document.getElementById("navbar-menu");
+
+        menuIcon.addEventListener("click", function () {
+          navbarMenu.classList.toggle("active");
+        });
+      });
+    </script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector(".navbar");
+
+        if (window.pageYOffset > 0) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+    <script src="../app.js"></script>
+    <script type="module" src="../auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
